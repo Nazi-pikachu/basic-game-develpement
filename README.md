@@ -1,4 +1,5 @@
 # basic-game-develpement
-Basic brick breaker game
-This is a basic game, good for understanding concepts of CSS,HTML&JS
+Drizzy Balls Animation
+This is the basic animation for understanding the concept of HTML Canvas.
+The project focus on mainly practicing Javascript,DOM & HTML canvas
 

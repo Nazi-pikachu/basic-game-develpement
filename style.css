@@ -1,0 +1,24 @@
+body{
+    background-image: url(game.jpg);
+    background-size:cover
+
+}
+canvas{
+    border: solid rgba(255, 255, 255, 0.582) 5px;
+    border-radius: 2%;
+    margin-top: 0px;
+}
+h1{
+    text-align: center;
+    color:rgb(255, 136, 0);
+    font: outline bold;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    color:rgb(255, 136, 0);
+    font: outline bold;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
