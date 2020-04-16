@@ -124,7 +124,7 @@ class circle {
 //Creates an array of objects
 
 var objectArray = [];
-for (var i = 0; i < 200; i++) {
+for (var i = 0; i < 100; i++) {
     var r = 1 + Math.random() * 20;
     var x = Math.random() * canvas.width;
     var y = Math.random() * canvas.height;
