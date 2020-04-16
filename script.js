@@ -67,13 +67,13 @@ window.addEventListener('mousemove',
 
     }
 )
-window.addEventListener('touchmove',
+/*window.addEventListener('touchmove',
     function (event) {
         mouse.x = event.x;
         mouse.y = event.y;
 
     }
-)
+)*/
 
 
 //document.getElementById('navbar').style.columnWidth = innerWidth;
