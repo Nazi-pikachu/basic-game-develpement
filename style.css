@@ -2,16 +2,18 @@ body{
     background-color: cornsilk;
 }
 canvas{
-    border: solid rgba(255, 255, 255, 0.582) 5px;
+    border: solid rgba(255, 136, 0, 0.582) 5px;
     border-radius: 2%;
     margin-top: 0px;
+    width: 6000px;
+    height: 2800px;
 }
 h1{
     text-align: center;
     color:rgb(255, 136, 0);
     font: outline bold;
     font-family: 'Permanent Marker', cursive;
-    font-size: 50px;
+    font-size: 100px;
 }
 h2{
     text-align: center;
@@ -19,4 +21,15 @@ h2{
     font: outline bold;
     font-family: 'Permanent Marker', cursive;
     font-size: 30px;
+}
+#heading{
+
+text-align: center;
+color: crimson;
+font-size: 50px;
+}
+
+#para{
+    font-size: 100px;
+    word-wrap: break-word;
 }

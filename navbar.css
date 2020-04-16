@@ -1,0 +1,34 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to right, rgba(217, 201, 67, 0.6),
+            rgba(227, 113, 70, 0.6),
+            rgba(154, 73, 204, 0.6),
+            rgba(70, 194, 227, 0.6),
+            rgba(115, 219, 68, 0.6));
+    height: 150px;
+    margin-bottom: 0px;
+    
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 120px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
