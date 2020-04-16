@@ -39,7 +39,7 @@ animate();
 
 **********************************************************/
 //let's practice some basic stuff first
-document.getElementById('navbar').style.columnWidth = innerWidth;
+//document.getElementById('navbar').style.columnWidth = innerWidth;
 //document.getElementById('navbar').style.column = innerWidth;
 
 
