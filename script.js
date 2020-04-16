@@ -39,6 +39,10 @@ animate();
 
 **********************************************************/
 //let's practice some basic stuff first
+document.getElementById('navbar').style.columnWidth = innerWidth;
+//document.getElementById('navbar').style.column = innerWidth;
+
+
 var canvas = document.querySelector('canvas');
 var c = canvas.getContext('2d');
 var mouse = {
@@ -63,6 +67,16 @@ window.addEventListener('mousemove',
 
     }
 )
+window.addEventListener('touchmove',
+    function (event) {
+        mouse.x = event.x;
+        mouse.y = event.y;
+
+    }
+)
+
+
+//document.getElementById('navbar').style.columnWidth = innerWidth;
 window.addEventListener('resize', function (event) {
     canvas.width = this.innerWidth;
     canvas.height = this.innerHeight;
