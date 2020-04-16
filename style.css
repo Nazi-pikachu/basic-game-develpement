@@ -1,7 +1,5 @@
 body{
-    background-image: url(game.jpg);
-    background-size:cover
-
+    background-color: cornsilk;
 }
 canvas{
     border: solid rgba(255, 255, 255, 0.582) 5px;
