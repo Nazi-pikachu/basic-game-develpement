@@ -5,8 +5,8 @@ canvas{
     border: solid rgba(255, 136, 0, 0.582) 5px;
     border-radius: 2%;
     margin-top: 0px;
-    width: 6000px;
-    height: 2800px;
+   /* width: 6000px;
+    height: 2800px;*/
 }
 h1{
     text-align: center;
