@@ -1,7 +1,7 @@
 # basic-game-develpement
-Drizzy Balls Animation
-Animation lies at the core of any game developement
-This is the basic animation for understanding the concept of HTML Canvas.
-The project focus on mainly practicing Javascript,DOM & HTML canvas
-Added interactivity and visually appealing colors.
-Added Navbar for basic information
+Drizzy Ball Animation.
+This project establish a solid foundation for web game developement using HTML5 Canvas
+references:-
+https://chriscourses.com/ has very good lecture to understand the web dev in general<br>
+www.w3schools.com is a great source for HTML,CSSS,JS.
+
