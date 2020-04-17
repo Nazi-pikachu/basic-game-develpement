@@ -1,4 +1,5 @@
-/* please ignore this all!!!!! main code below
+/************please ignore this all!!!!! main code below
+ 
 var canvas = document.querySelector('canvas');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -93,7 +94,7 @@ class circle {
         this.dx = dx;
         this.dy = dy;
         this.MinRadius = this.r;
-        this.MaxRadius = 300;
+        this.MaxRadius = 50;
         this.color = color[Math.floor(Math.random() * 5)];
     }
 
@@ -124,7 +125,7 @@ class circle {
         if ((mouse.x - this.x) < 150 && (mouse.x - this.x) > -150 &&
             (mouse.y - this.y) < 150 && (mouse.y - this.y) > -150) {
             if (this.r < this.MaxRadius)
-                this.r += 20;
+                this.r += 1.3;
 
         }
         else if (this.r > this.MinRadius)
@@ -139,11 +140,11 @@ class circle {
 
 var objectArray = [];
 for (var i = 0; i < 100; i++) {
-    var r = 1 + Math.random() * 20;
+    var r = 1 + Math.random() * 10;
     var x = Math.random() * canvas.width;
     var y = Math.random() * canvas.height;
-    var dx = (Math.random() - 0.5);
-    var dy = (Math.random() - 0.5);
+    var dx = (Math.random() - 0.5) * 2;
+    var dy = (Math.random() - 0.5) * 2;
     objectArray.push(new circle(x, y, dx, dy, r));
 }
 //to fill extra space on resizing of the browser
