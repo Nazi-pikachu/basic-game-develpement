@@ -3,7 +3,7 @@ body{
 }
 canvas{
     border: solid rgba(255, 136, 0, 0.582) 5px;
-    border-radius: 2%;
+    border-radius: 1%;
     margin-top: 0px;
    /* width: 6000px;
     height: 2800px;*/

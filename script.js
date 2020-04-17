@@ -104,7 +104,7 @@ class circle {
         c.arc(this.x, this.y, this.r, 0, 2 * Math.PI, false);         // c.bezierCurveTo(innerWidth / 2, innerHeight / 2, this.x, this.y, 10, 10);
         c.fillStyle = this.color;
         c.fill();
-        c.strokeStyle = "red";
+        c.strokeStyle = this.color;
         c.stroke();
     }
     //this will refresh and update the canvas 
@@ -140,11 +140,11 @@ class circle {
 
 var objectArray = [];
 for (var i = 0; i < 100; i++) {
-    var r = 1 + Math.random() * 10;
+    var r = 1 + Math.random() * 8;
     var x = Math.random() * canvas.width;
     var y = Math.random() * canvas.height;
-    var dx = (Math.random() - 0.5) * 2;
-    var dy = (Math.random() - 0.5) * 2;
+    var dx = (Math.random() - 0.5);
+    var dy = (Math.random() - 0.5);
     objectArray.push(new circle(x, y, dx, dy, r));
 }
 //to fill extra space on resizing of the browser
